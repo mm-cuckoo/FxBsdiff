@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FxBsdiffLib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FxBsdiffLib">
+				<Option output="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/libFxBsdiffLib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 FxBsdiffLib"/>
+					<CompileFile command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FxBsdiffLib/fast">
+				<Option output="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/libFxBsdiffLib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="D:/Work_Soft/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 FxBsdiffLib/fast"/>
+					<CompileFile command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Work_Soft/MinGW64/bin/mingw32-make.exe -f &quot;E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/blocksort.c">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/bzlib.c">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/bzlib.h">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/bzlib_private.h">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/compress.c">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/crctable.c">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/decompress.c">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/huffman.c">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/randtable.c">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/fxbsdiff/bsdiff.cpp">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/fxbsdiff/com_cfox_fxjbsdiff_JBsdiff.h">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/fxbsdiff/jni.h">
+			<Option target="FxBsdiffLib"/>
+		</Unit>
+		<Unit filename="E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

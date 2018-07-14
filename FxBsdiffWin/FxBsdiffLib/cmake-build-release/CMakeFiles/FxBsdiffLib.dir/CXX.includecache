@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/bzlib.h
+stdio.h
+-
+windows.h
+-
+
+E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/fxbsdiff/bsdiff.cpp
+com_cfox_fxjbsdiff_JBsdiff.h
+E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/fxbsdiff/com_cfox_fxjbsdiff_JBsdiff.h
+stdlib.h
+-
+../bzip2/bzlib.h
+E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/bzip2/bzlib.h
+stdio.h
+-
+string.h
+-
+io.h
+-
+fcntl.h
+-
+windows.h
+-
+process.h
+-
+sys/types.h
+-
+
+E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/fxbsdiff/com_cfox_fxjbsdiff_JBsdiff.h
+jni.h
+E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/fxbsdiff/jni.h
+
+E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/fxbsdiff/jni.h
+stdarg.h
+-
+stdint.h
+-
+

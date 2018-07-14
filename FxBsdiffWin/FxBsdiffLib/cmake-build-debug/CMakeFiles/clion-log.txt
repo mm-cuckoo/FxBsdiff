@@ -1,0 +1,4 @@
+D:\Work_Soft\CLion-2017.3.4\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Open_Project\FxBsdiff\FxBsdiffWin\FxBsdiffLib
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Open_Project/FxBsdiff/FxBsdiffWin/FxBsdiffLib/cmake-build-debug
