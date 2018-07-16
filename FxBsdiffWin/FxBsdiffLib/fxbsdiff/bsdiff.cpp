@@ -472,16 +472,16 @@ JNIEXPORT jint JNICALL Java_com_cfox_fxjbsdiff_JBsdiff_diffFile
 {
 
 	int bsdiff_result = -1;
-	const char * old_file_path = env->GetStringUTFChars(jstr_old_file_path, NULL);
-	const char * new_file_path = env->GetStringUTFChars(jstr_new_file_path, NULL);
-	const char * patch_file_path = env->GetStringUTFChars(jstr_patch_file_path, NULL);
+	char * old_file_path = (char *) env->GetStringUTFChars(jstr_old_file_path, NULL);
+	char * new_file_path = (char *)env->GetStringUTFChars(jstr_new_file_path, NULL);
+	char * patch_file_path = (char *)env->GetStringUTFChars(jstr_patch_file_path, NULL);
 
 	char *argv[4];
 
-	strcpy(argv[0], "fxbsdiff");
-	strcpy(argv[1], old_file_path);
-	strcpy(argv[2], new_file_path);
-	strcpy(argv[3], patch_file_path);
+	argv[0] = (char *)"fxbsdiff";
+	argv[1] = old_file_path;
+	argv[2] = new_file_path;
+	argv[3] = patch_file_path;
 
 	bsdiff_result = bsdiff_main(4,argv);
 
