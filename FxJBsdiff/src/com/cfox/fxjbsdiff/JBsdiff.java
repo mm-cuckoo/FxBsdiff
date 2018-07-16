@@ -6,6 +6,6 @@ public class JBsdiff {
 			String patchFilePath);
 	
 	static {
-		System.loadLibrary("libBsdiffLib");
+		System.loadLibrary("libFxBsdiffLib");
 	}
 }
