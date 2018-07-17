@@ -1,0 +1,3 @@
+/home/cfox/ADisk/open_project/FxBsdiff/FxBsdiffLinux/FxBsdiffLib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cfox/ADisk/open_project/FxBsdiff/FxBsdiffLinux/FxBsdiffLib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cfox/ADisk/open_project/FxBsdiff/FxBsdiffLinux/FxBsdiffLib/cmake-build-debug/CMakeFiles/FxBsdiffLib.dir
