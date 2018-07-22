@@ -15,12 +15,12 @@ public class FxBspatch {
 
 
     public int bspatchFile(Context context, String newApkFilePath, String apkPatchFilePath) {
-        String oldApkFilePath = ApkUtils.getSourceApkPath(context);
+        String oldApkFilePath = ApkUtils.getSourceApkPath(context.getApplicationContext());
         return bspatchFile(oldApkFilePath,newApkFilePath ,apkPatchFilePath);
     }
 
     public int bspatchFile(Context context, String packageName, String newApkFilePath, String apkPatchFilePath) {
-        String oldApkFilePath = ApkUtils.getSourceApkPath(context, packageName);
+        String oldApkFilePath = ApkUtils.getSourceApkPath(context.getApplicationContext(), packageName);
         return bspatchFile(oldApkFilePath,newApkFilePath ,apkPatchFilePath);
     }
 
