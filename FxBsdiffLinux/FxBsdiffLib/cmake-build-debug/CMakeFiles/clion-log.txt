@@ -1,0 +1,4 @@
+/home/cfox/ADisk/Work-soft/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cfox/ADisk/open_project/FxBsdiff/FxBsdiffLinux/FxBsdiffLib
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cfox/ADisk/open_project/FxBsdiff/FxBsdiffLinux/FxBsdiffLib/cmake-build-debug
